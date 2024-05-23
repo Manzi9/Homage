@@ -1,19 +1,38 @@
 .top-nav {
-  border: solid;
   display: flex;
   justify-content: space-between;
 }
 
-.logo {
-  border: solid;
-  color: pink;
+.middle-container {
+  margin-top: 150px;
 }
 
-.burger-menu {
-  border: solid;
-  border-color: 255;
+.top-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* How do I get buttons at the bottom? */
+.buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
 }
 
 body {
-  background-image: url(./Assets/Electric\ Cars_\ Solar\ _\ Clean\ Energy\ _\ Tesla/Homepage-Model-Y-Mobile-Global.jpeg);
-}/*# sourceMappingURL=styles.css.map */
+  background-image: url(./Assets/Homepage-Model-Y-Mobile-Global.jpg);
+} /*# sourceMappingURL=styles.css.map */
