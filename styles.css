@@ -1,3 +1,15 @@
 .top-nav {
-  border: solid, black;
+  border: solid;
+  display: flex;
+  justify-content: space-between;
 }
+
+.logo {
+  border: solid;
+  color: pink;
+}
+
+.burger-menu {
+  border: solid;
+  border-color: red;
+} /*# sourceMappingURL=styles.css.map */
