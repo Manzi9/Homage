@@ -11,5 +11,9 @@
 
 .burger-menu {
   border: solid;
-  border-color: red;
-} /*# sourceMappingURL=styles.css.map */
+  border-color: 255;
+}
+
+body {
+  background-image: url(./Assets/Electric\ Cars_\ Solar\ _\ Clean\ Energy\ _\ Tesla/Homepage-Model-Y-Mobile-Global.jpeg);
+}/*# sourceMappingURL=styles.css.map */
