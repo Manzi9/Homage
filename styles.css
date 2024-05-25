@@ -1,7 +1,13 @@
+/* ------Top Nav Bar-------- */
+
 .top-nav {
   display: flex;
   justify-content: space-between;
 }
+
+/* List Options */
+
+/* ------Middel Section------- */
 
 .middle-container {
   margin-top: 150px;
@@ -23,6 +29,7 @@
   align-items: center;
 }
 
+/* -------- Order/Demo Buttons---------- */
 /* How do I get buttons at the bottom? */
 .buttons {
   position: relative;
