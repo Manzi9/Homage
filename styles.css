@@ -20,12 +20,18 @@ ul ul {
   list-style-type: none;
 }
 
-nav ul ul {
+/* nav ul ul {
   display: none;
-}
+} */
 
 nav ul li:hover ul {
   display: inherit;
+}
+
+/* --------Burger Specific-------------- */
+
+.burger-menu {
+  background-color: white;
 }
 
 /* ------------------Middle Section------------------- */
@@ -63,6 +69,18 @@ nav ul li:hover ul {
   border: solid;
 }
 /* ----------------------Footer-------------- */
+
+.footer {
+  background-color: #000000;
+  font-size: 12px;
+  padding-bottom: 0;
+}
 .upper-footer {
   text-align: center;
+  color: #d0d1d2;
+}
+
+.lower-footer ul {
+  display: flex;
+  flex-direction: row;
 }
