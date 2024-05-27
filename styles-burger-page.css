@@ -3,7 +3,20 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+a {
+  padding: 20px;
+}
+
+li {
+  margin-top: 20px;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+}
 /* ---------------Vehicles------------------ */
+
 .vehicles {
   display: flex;
   flex-wrap: wrap;
@@ -13,18 +26,17 @@
 
 .vehicles-header {
   text-align: center;
+  max-width: 1200px;
 }
 
 .lower-vehicle-menu ul {
   list-style: none;
   list-style-type: none;
-  border: solid, green;
 }
 
 .vehicle-list {
   display: flex;
   flex-direction: column;
-  border: solid, rgb(0, 21, 255);
 }
 
 @media (min-width: 1200px) {
@@ -43,6 +55,7 @@
 
 .energy-header {
   text-align: center;
+  max-width: 1200px;
 }
 
 .lower-energy-menu ul {
@@ -70,15 +83,19 @@
   flex-wrap: wrap;
   /* justify-content: space-evenly; */
   max-width: 750px;
+  border: solid, orange;
 }
 
 .charging-header {
   text-align: center;
+  border: solid, red;
+  max-width: 1200px;
 }
 
 .lower-charging-menu ul {
   list-style: none;
   list-style-type: none;
+  border: solid, lime;
 }
 
 .charging-list {
@@ -86,6 +103,7 @@
 
   flex-direction: column;
   padding-top: 50px;
+  border: solid, blue;
 }
 
 @media (min-width: 1200px) {
